@@ -245,4 +245,9 @@ public class MainActivity extends AppCompatActivity {
         paragraph.setAlignment(align);
         document.add(paragraph);
     }
+
+    public void goToScanner(View v){
+        Intent in = new Intent(MainActivity.this, escaner.class);
+        startActivity(in);
+    }
 }
